@@ -2,11 +2,13 @@ import random
 import time
 import os
 
-os.system("cls")
+
 
 time.sleep(1)
 
 while True:
+    os.system("cls")
+    
     minimal = input("Minimal Number: ")
     maximal = input("Maximum Number: ")
 
